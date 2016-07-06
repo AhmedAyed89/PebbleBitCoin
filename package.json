@@ -1,0 +1,44 @@
+{
+    "author": "Pebble Technology",
+    "dependencies": {},
+    "keywords": [],
+    "name": "bitcoin-today",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Bitcoin Value Today",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "RATE_EURO_KEY": 2,
+            "RATE_ICON_KEY": 0,
+            "RATE_USD_KEY": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/BitCoin",
+                    "memoryFormat": "Smallest",
+                    "menuIcon": true,
+                    "name": "RATE_ICONS",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "7648c202-285c-479d-bc75-a6409c3fe6bf",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "2.0.0"
+}
